@@ -56,7 +56,7 @@ import shoeswapLogo from "./assets/work_logo/shoeSwap.png";
 import spotifyCloneLogo from "./assets/work_logo/spotify_clone.png";
 import fueltrack from "./assets/work_logo/fuelTrack_logo.png";
 import mausamLogo from "./assets/work_logo/mausaumLogo.png";
-import virexMediaLogo from "./assets/virex media logo.png";
+import virexMediaLogo from "./assets/work_logo/Virex Media.png";
 
 export const SkillsInfo = [
   {
