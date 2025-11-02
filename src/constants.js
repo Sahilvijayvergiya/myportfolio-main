@@ -48,6 +48,7 @@ import sacredLogo from "./assets/education_logo/Sacred logo.png";
 
 // Project Section Logo's
 import videoConfLogo from "./assets/work_logo/Video COnfrencing App.png";
+import dsaTrackerLogo from "./assets/work_logo/Sahil Vijay's DSA Tracker Sheet.png";
 import hospitalFoodDeliveryLogo from "./assets/work_logo/Hospital Food Delivery System.png";
 import hospitalLogo from "./assets/work_logo/shoeSwap.png";
 import pollingLogo from "./assets/work_logo/Live Polling System.png";
@@ -222,6 +223,16 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Sahil Vijay's DSA Tracker Sheet",
+    description:
+      "A comprehensive web application for tracking progress in Data Structures and Algorithms. Features include problem categorization, difficulty tracking, progress visualization, and performance analytics to help users systematically improve their problem-solving skills.",
+    image: dsaTrackerLogo,
+    tags: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
+    github: "https://github.com/Sahilvijayvergiya",
+    webapp: "#",
+  },
+  {
+    id: 1,
     title: "Video Conferencing App",
     description:
       "Built a video conferencing app with chat, screen sharing, and real-time support for 20 users. Enabled 150+ unique room sessions during beta with 95% uptime.",
@@ -231,7 +242,7 @@ export const projects = [
     webapp: "#",
   },
   {
-    id: 1,
+    id: 2,
     title: "Hospital Food Delivery System",
     description:
       "Developed a hospital meal delivery system with role-based workflows, tested by 20 users across 3 roles. Automated diet charts and task assignments, reducing manual tracking time by 60%.",
@@ -241,7 +252,7 @@ export const projects = [
     webapp: "#",
   },
   {
-    id: 2,
+    id: 3,
     title: "Live Polling System",
     description:
       "Created a real-time polling application enabling users to create, participate in, and view live poll results. Features include instant vote updates, multiple poll types, and responsive design for seamless user experience across devices.",
