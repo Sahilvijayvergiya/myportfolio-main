@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { FiGift, FiMenu, FiX } from 'react-icons/fi';
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import virexMediaLogo from '../../assets/VIREX MEDIA LOGO.png'
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -60,7 +61,7 @@ export const Navbar = () => {
 
         </ul>
 
-        <div className='hidden md:flex space-x-4'>
+        <div className='hidden md:flex space-x-4 items-center'>
           <a href="https://github.com/Sahilvijayvergiya"
             target='blank'
             rel='noopener noreferrer'
@@ -74,6 +75,13 @@ export const Navbar = () => {
             className='text-gray-300 hover:text-[#8245ec]'
           >
             <FaLinkedin size={32} />
+          </a>
+          <a href="https://www.virexmedia.info"
+            target='blank'
+            rel='noopener noreferrer'
+            className='text-gray-300 hover:text-[#8245ec] transition-all flex items-center justify-center'
+          >
+            <img src={virexMediaLogo} alt="VIREX Media" className='h-8 w-auto opacity-70 hover:opacity-100 transition-all' style={{height: '32px', width: 'auto', filter: 'brightness(0) invert(0.7)', objectFit: 'contain'}} />
           </a>
 
         </div>
@@ -117,7 +125,7 @@ export const Navbar = () => {
 
             )}
 
-            <div className='flex space-x-8 pt-4 border-t border-gray-700 w-full justify-center'>
+            <div className='flex space-x-8 pt-4 border-t border-gray-700 w-full justify-center items-center'>
               <a href="https://github.com/Sahilvijayvergiya"
                 target='blank'
                 rel='noopener noreferrer'
@@ -131,6 +139,13 @@ export const Navbar = () => {
                 className='text-gray-300 hover:text-white'
               >
                 <FaLinkedin size={32} />
+              </a>
+              <a href="https://www.virexmedia.info"
+                target='blank'
+                rel='noopener noreferrer'
+                className='text-gray-300 hover:text-white transition-all flex items-center justify-center'
+              >
+                <img src={virexMediaLogo} alt="VIREX Media" className='h-8 w-auto opacity-70 hover:opacity-100 transition-all' style={{height: '32px', width: 'auto', filter: 'brightness(0) invert(0.7)', objectFit: 'contain'}} />
               </a>
 
             </div>
