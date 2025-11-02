@@ -56,6 +56,7 @@ import shoeswapLogo from "./assets/work_logo/shoeSwap.png";
 import spotifyCloneLogo from "./assets/work_logo/spotify_clone.png";
 import fueltrack from "./assets/work_logo/fuelTrack_logo.png";
 import mausamLogo from "./assets/work_logo/mausaumLogo.png";
+import virexMediaLogo from "./assets/virex media logo.png";
 
 export const SkillsInfo = [
   {
@@ -223,6 +224,16 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "VIREX Media - Digital Solutions Agency",
+    description:
+      "A dynamic social media agency specializing in videography, website development, social media marketing, branding, and content creation. Delivers tailored digital experiences that drive engagement and measurable results through creative thinking and data-driven strategies.",
+    image: virexMediaLogo,
+    tags: ["Web Development", "Digital Marketing", "Branding", "Content Creation", "Strategy"],
+    github: "https://github.com/Sahilvijayvergiya",
+    webapp: "#",
+  },
+  {
+    id: 1,
     title: "Sahil Vijay's DSA Tracker Sheet",
     description:
       "A comprehensive web application for tracking progress in Data Structures and Algorithms. Features include problem categorization, difficulty tracking, progress visualization, and performance analytics to help users systematically improve their problem-solving skills.",
