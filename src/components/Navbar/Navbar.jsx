@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { FiGift, FiMenu, FiX } from 'react-icons/fi';
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import virexMediaLogo from '../../assets/VIREX MEDIA LOGO.png'
+import virexMediaLogo from '../../assets/work_logo/Virex Media.png'
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -81,7 +81,7 @@ export const Navbar = () => {
             rel='noopener noreferrer'
             className='text-gray-300 hover:text-[#8245ec] transition-all flex items-center justify-center'
           >
-            <img src={virexMediaLogo} alt="VIREX Media" className='h-8 w-auto opacity-70 hover:opacity-100 transition-all' style={{height: '32px', width: 'auto', filter: 'brightness(0) invert(0.7)', objectFit: 'contain'}} />
+            <img src={VirexMedia} alt="VIREX Media" className='h-8 w-auto opacity-70 hover:opacity-100 transition-all' style={{height: '32px', width: 'auto', filter: 'brightness(0) invert(0.7)', objectFit: 'contain'}} />
           </a>
 
         </div>
